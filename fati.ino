@@ -49,6 +49,6 @@ void loop() {
 
   if(timer_total > 10000){
      digitalWrite(7,HIGH);
-     BTSerial.println("ON");
+     BTSerial.println("ON"); 
   }
 }
